@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components{
+    .hoverEfect{
+        @apply cursor-pointer  hover:bg-gray-200 rounded-md hover:px-4 hover:py-3
+    }
+}
