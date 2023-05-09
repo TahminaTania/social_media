@@ -9,7 +9,7 @@ export default function NavBar() {
     <section className="bg-cyan-300 grid h-[70px] items-center">
 
         <div className="flex items-center justify-between mx-5">
-            <Image src="/logo.png" width={40} height={40}></Image>
+            <Image src="/logo.png" alt="" width={40} height={40}></Image>
             <Menu text="Home" Icon={<AiOutlineHome size={20} active/>}/>
             <Menu text="Notification" Icon={<AiOutlineBell size={20}/>}/>
             <Menu text="Massege" Icon={<AiOutlineMessage size={20}/>}/>

@@ -1,9 +1,12 @@
 
+import NewsFeed from "@/components/NewsFeed";
 
-export default function Home() {
+export default function Home({data}) {
+
   return (
     <main>
-Hello World
+       Hello Home Page:
     </main>
   )
 }
+
